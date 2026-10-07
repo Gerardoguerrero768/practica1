@@ -100,32 +100,69 @@ html{
     text-transform: unset;
 }
 
+#GEGC_hover4:hover{
+    cursor: grab;
+    border-radius: 40px;
+    transition: 4ms;
+    border: 3px solid var(--naranja);
+    text-transform: uppercase;
+}
+
+#GEGC_hover5:hover{
+    cursor: help;
+    border-radius: 10px;
+    transition: 4ms;
+    border: 3px solid var(--morado);
+    text-transform: lowercase;
+}
+
+#GEGC_hover6:hover{
+    cursor: zoom-in;
+    border-radius: 50px;
+    transition: 4ms;
+    border: 3px solid var(--quiz);
+    text-transform: uppercase;
+}
+
+#GEGC_hover7:hover{
+    cursor: move;
+    border-radius: 0px;
+    transition: 4ms;
+    border: 3px solid var(--lila);
+    text-transform: lowercase;
+}
+
+#GEGC_hover8:hover{
+    cursor: not-allowed;
+    border-radius: 30px;
+    transition: 4ms;
+    border: 3px solid var(--azul);
+    text-transform: uppercase;
+}
+
 @media screen and (max-width: 1024px){
-    .div_flexhijo{
+    .GEGC_div_hijo{
         width: 45%;
     }
 }
 
 @media screen and (max-width: 768px){
-    .div_flexhijo{
+    .GEGC_div_hijo{
         width: 75%;
     }
-    .div_flex{
+    .GEGC_div_flex{
         justify-content: center;
     }
 }
 
 @media screen and (max-width: 480px){
-    .div_flexhijo{
+    .GEGC_div_hijo{
         width: 90%;
-    }
-    .formulario{
-        width: 98%;
     }
     h1{
         font-size: 1.7rem;
     }
-    p, label, input, textarea, .btn{
+    .btn{
         font-size: 1rem;
     }
 }
