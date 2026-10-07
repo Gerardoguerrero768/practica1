@@ -1,0 +1,131 @@
+:root{
+    --background-color: #f0f0f0;
+    --text-color: #333333;
+    --azul: #0257b3;
+    --verde: #28a745;
+    --quiz: #ffc107;
+    --escarlata: #ff073a;
+    --naranja: #fd7e14;
+    --morado: #6f42c1;
+    --turquesa: #20c997;
+    --lila: #e83e8c;
+}
+
+html{
+    background: var(--background-color);
+}
+
+.GEGC_div_flex.cambio_color{
+    --azul: #e83e8c;
+    --verde: #20c997;
+    --quiz: #6f42c1;
+    --escarlata: #fd7e14;
+    --naranja: #ff073a;
+    --morado: #ffc107;
+    --turquesa: #28a745;
+    --lila: #0257b3;
+}
+
+.GEGC_div_flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.GEGC_div_hijo {
+    height: 10rem;
+    width: 30%;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-bottom: 5rem;
+    border-color: #333333;
+
+    display: flex;
+    justify-content: center;
+}
+
+.azul{
+    background: var(--azul);
+}
+
+.verde{
+    background: var(--verde);
+}
+
+.quiz{
+    background: var(--quiz);
+}
+
+.escarlata{
+    background: var(--escarlata);
+}
+
+.naranja{
+    background: var(--naranja);
+}
+
+.morado{
+    background: var(--morado);
+}
+
+.turqueza{
+    background: var(--turquesa);
+}
+
+.lila{
+    background: var(--lila);
+}
+
+#GEGC_hover1:hover{
+    cursor: pointer;
+    border-radius: 0px;
+    transition: 4ms;
+    border: 3px solid var(--escarlata);
+    text-transform: lowercase;
+}
+
+#GEGC_hover2:hover{
+    cursor: crosshair;
+    border-radius: 30px;
+    transition: 4ms;
+    border: 3px solid var(--turquesa);
+    text-transform: uppercase;
+}
+
+#GEGC_hover3:hover{
+    cursor: cell;
+    transition: 4ms;
+    border: 3px solid var(--escarlata);
+    text-transform: unset;
+}
+
+@media screen and (max-width: 1024px){
+    .div_flexhijo{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .div_flexhijo{
+        width: 75%;
+    }
+    .div_flex{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .div_flexhijo{
+        width: 90%;
+    }
+    .formulario{
+        width: 98%;
+    }
+    h1{
+        font-size: 1.7rem;
+    }
+    p, label, input, textarea, .btn{
+        font-size: 1rem;
+    }
+}
