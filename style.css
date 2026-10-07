@@ -43,6 +43,8 @@ html{
 
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .azul{
@@ -138,6 +140,23 @@ html{
     transition: 4ms;
     border: 3px solid var(--azul);
     text-transform: uppercase;
+}
+
+.GEGC_btn{
+    display: block;
+    margin: 0 auto;
+    background: var(--lila);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.GEGC_btn:hover{
+    background: var(--escarlata);
+    border: 3px solid #333333;
 }
 
 @media screen and (max-width: 1024px){
